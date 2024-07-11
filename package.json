@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "appflow:build": "npm run generate"
+    "appflow:build": "nuxt generate"
   },
   "dependencies": {
     "@capacitor/android": "^6.1.0",
