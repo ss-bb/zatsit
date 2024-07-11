@@ -29,6 +29,7 @@ npx cap open android
 
 ## no automation to trigger a build on appflow yet, use the web interface
 
+https://ionic.io/login?source=appflow&product=appflow
 
 ## Production
 
