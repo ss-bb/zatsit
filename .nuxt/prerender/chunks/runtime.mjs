@@ -1,21 +1,21 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, createError, getResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/h3@1.12.0/node_modules/h3/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/ofetch@1.3.4/node_modules/ofetch/dist/node.mjs';
-import destr from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/destr@2.0.3/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs';
-import { klona } from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/klona@2.0.6/node_modules/klona/dist/index.mjs';
-import { snakeCase } from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/scule@1.3.0/node_modules/scule/dist/index.mjs';
-import defu, { defuFn } from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/defu@6.1.4/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/ohash@1.1.3/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash } from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/ufo@1.5.3/node_modules/ufo/dist/index.mjs';
-import { createStorage, defineDriver, prefixStorage } from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/unstorage@1.10.2_ioredis@5.4.1/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/unstorage@1.10.2_ioredis@5.4.1/node_modules/unstorage/drivers/fs.mjs';
-import fsDriver from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/unstorage@1.10.2_ioredis@5.4.1/node_modules/unstorage/drivers/fs-lite.mjs';
-import lruCache from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/unstorage@1.10.2_ioredis@5.4.1/node_modules/unstorage/drivers/lru-cache.mjs';
-import { toRouteMatcher, createRouter } from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/radix3@1.1.2/node_modules/radix3/dist/index.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, createError, getResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/h3@1.12.0/node_modules/h3/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/ofetch@1.3.4/node_modules/ofetch/dist/node.mjs';
+import destr from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/destr@2.0.3/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/unenv@1.9.0/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs';
+import { klona } from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/klona@2.0.6/node_modules/klona/dist/index.mjs';
+import { snakeCase } from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/scule@1.3.0/node_modules/scule/dist/index.mjs';
+import defu, { defuFn } from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/defu@6.1.4/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/ohash@1.1.3/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash } from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/ufo@1.5.3/node_modules/ufo/dist/index.mjs';
+import { createStorage, defineDriver, prefixStorage } from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/unstorage@1.10.2_ioredis@5.4.1/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/unstorage@1.10.2_ioredis@5.4.1/node_modules/unstorage/drivers/fs.mjs';
+import fsDriver from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/unstorage@1.10.2_ioredis@5.4.1/node_modules/unstorage/drivers/fs-lite.mjs';
+import lruCache from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/unstorage@1.10.2_ioredis@5.4.1/node_modules/unstorage/drivers/lru-cache.mjs';
+import { toRouteMatcher, createRouter } from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/radix3@1.1.2/node_modules/radix3/dist/index.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'file:///home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/pathe@1.1.2/node_modules/pathe/dist/index.mjs';
+import { dirname, resolve } from 'file:///home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/pathe@1.1.2/node_modules/pathe/dist/index.mjs';
 
 function getEnv(key, opts) {
   const envKey = snakeCase(key).toUpperCase();
@@ -66,7 +66,7 @@ const appConfig = defuFn(inlineAppConfig);
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "9c792319-0217-4845-b22b-9d1f13db1590",
+    "buildId": "903dc638-e260-41de-bebf-2e1e1c1bc202",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -139,7 +139,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/home/pc_ocus_22/dev/crash/capacitor-boiler/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/home/pc_ocus_22/dev/zatsit/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -148,7 +148,7 @@ for (const asset of serverAssets) {
 }
 
 const normalizeFsKey = (item) => item.replaceAll(":", "_");
-const _47home_47pc_ocus_22_47dev_47crash_47capacitor_45boiler_47node_modules_47_46pnpm_47nuxt_643_4612_463_vite_645_463_463_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js = defineDriver((opts) => {
+const _47home_47pc_ocus_22_47dev_47zatsit_47node_modules_47_46pnpm_47nuxt_643_4612_463_vite_645_463_463_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js = defineDriver((opts) => {
   const fs = fsDriver({ base: opts.base });
   const lru = lruCache({ max: 1e3 });
   return {
@@ -173,12 +173,12 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets$1);
 
-storage.mount('internal:nuxt:prerender', _47home_47pc_ocus_22_47dev_47crash_47capacitor_45boiler_47node_modules_47_46pnpm_47nuxt_643_4612_463_vite_645_463_463_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js({"driver":"/home/pc_ocus_22/dev/crash/capacitor-boiler/node_modules/.pnpm/nuxt@3.12.3_vite@5.3.3/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js","base":"/home/pc_ocus_22/dev/crash/capacitor-boiler/.nuxt/cache/nitro/prerender"}));
-storage.mount('data', fsDriver({"driver":"fsLite","base":"/home/pc_ocus_22/dev/crash/capacitor-boiler/.data/kv"}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/pc_ocus_22/dev/crash/capacitor-boiler","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/pc_ocus_22/dev/crash/capacitor-boiler/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/pc_ocus_22/dev/crash/capacitor-boiler/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/pc_ocus_22/dev/crash/capacitor-boiler/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('internal:nuxt:prerender', _47home_47pc_ocus_22_47dev_47zatsit_47node_modules_47_46pnpm_47nuxt_643_4612_463_vite_645_463_463_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js({"driver":"/home/pc_ocus_22/dev/zatsit/node_modules/.pnpm/nuxt@3.12.3_vite@5.3.3/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js","base":"/home/pc_ocus_22/dev/zatsit/.nuxt/cache/nitro/prerender"}));
+storage.mount('data', fsDriver({"driver":"fsLite","base":"/home/pc_ocus_22/dev/zatsit/.data/kv"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/pc_ocus_22/dev/zatsit","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/pc_ocus_22/dev/zatsit/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/pc_ocus_22/dev/zatsit/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/pc_ocus_22/dev/zatsit/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -770,11 +770,11 @@ const _f4b49z = eventHandler((event) => {
   return readAsset(id);
 });
 
-const _lazy_34KYtG = () => import('./_/renderer.mjs');
+const _lazy_UGj6lX = () => import('./_/renderer.mjs');
 
 const handlers = [
   { route: '', handler: _f4b49z, lazy: false, middleware: true, method: undefined },
-  { route: '/**', handler: _lazy_34KYtG, lazy: true, middleware: false, method: undefined }
+  { route: '/**', handler: _lazy_UGj6lX, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
